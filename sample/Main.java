@@ -103,15 +103,19 @@ public class Main extends Application {
                 break;
             case "MC":
                 memValue = 0;
+                tfDisplay.setText(memValue + "");
                 break;
             case "MR":
                 memValue = result;
+                tfDisplay.setText(memValue + "");
                 break;
             case "M+":
                 memValue += result;
+                tfDisplay.setText(memValue + "");
                 break;
             case "M-":
                 memValue -= result;
+                tfDisplay.setText(memValue + "");
                 break;
 
 
